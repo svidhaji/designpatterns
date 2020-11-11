@@ -12,7 +12,7 @@ public class KebabPizza extends PizzaDecorator {
 	}
 	
 	public String getFilling() {
-		return super.getFilling() + "kebab, ";
+		return super.getFilling() + "Kebab, ";
 	}
 
 }

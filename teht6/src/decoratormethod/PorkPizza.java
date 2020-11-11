@@ -4,7 +4,6 @@ public class PorkPizza extends PizzaDecorator {
 
 	public PorkPizza(Pizza pizzaCrust) {
 		super(pizzaCrust);
-		// TODO Auto-generated constructor stub
 	}
 	
 	public Double getPrice() {
@@ -12,7 +11,7 @@ public class PorkPizza extends PizzaDecorator {
 	}
 	
 	public String getFilling() {
-		return super.getFilling() + "kinkku";
+		return super.getFilling() + "Kinkku, ";
 	}
 
 }

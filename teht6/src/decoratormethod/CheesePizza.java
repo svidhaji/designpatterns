@@ -12,7 +12,7 @@ public class CheesePizza extends PizzaDecorator {
 	}
 	
 	public String getFilling() {
-		return super.getFilling() + "aurajuusto, ";
+		return super.getFilling() + "aurajuusto";
 	}
 
 }
