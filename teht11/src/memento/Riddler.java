@@ -12,7 +12,7 @@ public class Riddler {
 	  }
 
 	  public void joinGame(Customers customer) {
-	    System.out.println(customer.getName() + " liittyi peliin");
+	    System.out.println(customer.getName() + " joined");
 	    customer.setMemento(new Memento(customer.getName(), guessNumber()));
 	  }
 
