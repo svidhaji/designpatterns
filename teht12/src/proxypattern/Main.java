@@ -6,12 +6,14 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		List<ProxyImage> proxyImages = new ArrayList<>();
+	    List<ProxyImage> proxyImages = new ArrayList<>();
 
 	    proxyImages.add(new ProxyImage("HiRes_10MB_Photo1"));
 	    proxyImages.add(new ProxyImage("HiRes_10MB_Photo2"));
 
-	    proxyImages.forEach(p -> p.showData());
+	    for (ProxyImage p : proxyImages) {
+	    	p.showData();
+	    }
 
 	    System.out.println("Selecting photo... Wait");
 
